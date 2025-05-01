@@ -11,7 +11,7 @@ Exploratory Data Analysis (EDA)
 - Total orders by date: Tracked the volume of orders over time.
 - Total orders by weekdays: find weekdays in which people orders the most.
 - Sales amount by product category: Identified high-performing product types.
-- Monthly order trends: Grouped by parsed month to observe seasonality.
+- Average monthly amount
 
 Machine Learning (with TensorFlow)
 - Applied Label Encoding to categorical features such as ship-city and status.
