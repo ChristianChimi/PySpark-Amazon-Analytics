@@ -9,6 +9,7 @@ Pre-Processing (with PySpark)
 Exploratory Data Analysis (EDA)
 - After aggregating the necessary metrics using PySpark, I converted the results to a Pandas DataFrame for easier plotting and visualization. Key insights included:
 - Total orders by date: Tracked the volume of orders over time.
+- Total orders by weekdays: find weekdays in which people orders the most.
 - Sales amount by product category: Identified high-performing product types.
 - Monthly order trends: Grouped by parsed month to observe seasonality.
 
