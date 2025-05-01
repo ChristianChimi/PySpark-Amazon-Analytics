@@ -1,16 +1,19 @@
-Hi! this is a new data analytics project. As i always want to improve my skills, i recently decided to try TensorFlow and PySpark.
+As part of my ongoing effort to improve my data science skills, I recently started a new project where I combined PySpark for large-scale data processing and TensorFlow for machine learning. 
+Here's an overview of the workflow and techniques I used:
 
-Pre-Processing:
-  - Load PySpark dataframe, filter columns and drop null values.
-  - Parse date to get number of the month
+Pre-Processing (with PySpark)
+- Loaded the dataset into a PySpark DataFrame for efficient handling of large data.
+- Selected relevant columns and dropped null values to ensure data quality.
+- Parsed the date field to extract the month number, useful for time-based analysis.
 
-Eda: 
-  - Aggregated the data using PySpark and then converted it to a Pandas DataFrame for easier visualization and analysis.
-  - Total orders by date
-  - Group by category to plot amounts.
-  - Group by months to plot total orders.
+Exploratory Data Analysis (EDA)
+- After aggregating the necessary metrics using PySpark, I converted the results to a Pandas DataFrame for easier plotting and visualization. Key insights included:
+- Total orders by date: Tracked the volume of orders over time.
+- Sales amount by product category: Identified high-performing product types.
+- Monthly order trends: Grouped by parsed month to observe seasonality.
 
-Machine learning:
-  - Used label encorder to transform city o ship and status into numbers.
-  - Used TensorFlow with a neural network to predict (using city ship and amount) if the order is likely to be cancelled.
-
+Machine Learning (with TensorFlow)
+- Applied Label Encoding to categorical features such as ship-city and status.
+- Built a neural network model using TensorFlow to predict the likelihood of an order being cancelled, based on:
+  - Shipping city
+  - Order amount
