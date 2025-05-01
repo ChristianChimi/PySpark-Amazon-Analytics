@@ -6,6 +6,7 @@ Pre-Processing:
 
 Eda: 
   - Aggregated the data using PySpark and then converted it to a Pandas DataFrame for easier visualization and analysis.
+  - Total orders by date
   - Group by category to plot amounts.
   - Group by months to plot total orders.
 
