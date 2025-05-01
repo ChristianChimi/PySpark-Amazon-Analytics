@@ -5,6 +5,7 @@ Pre-Processing:
   - Parse date to get number of the month
 
 Eda: 
+  - Aggregated the data using PySpark and then converted it to a Pandas DataFrame for easier visualization and analysis.
   - Group by category to plot amounts.
   - Group by months to plot total orders.
 
