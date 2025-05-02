@@ -20,3 +20,6 @@ Here's an overview of the workflow and techniques I used:
 - Built a neural network model using TensorFlow to predict the likelihood of an order being cancelled, based on:
   - Shipping city
   - Order amount
+
+## **Technologies Used**
+- **Python**, **Pandas**, **PySpark**, **TensorFlow**, **Matplotlib**.
