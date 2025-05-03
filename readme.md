@@ -4,22 +4,22 @@ As part of my ongoing effort to improve my data science skills, I recently start
 Here's an overview of the workflow and techniques I used:
 
 ## **Pre-Processing**
-- Loaded the dataset into a PySpark DataFrame for efficient handling of large data.
-- Selected relevant columns and dropped null values to ensure data quality.
-- Parsed the date field to extract the month number, useful for time-based analysis.
+    - Loaded the dataset into a PySpark DataFrame for efficient handling of large data.
+    - Selected relevant columns and dropped null values to ensure data quality.
+    - Parsed the date field to extract the month number, useful for time-based analysis.
 
 ## **Exploratory Data Analysis (EDA)**
-- After aggregating the necessary metrics using PySpark, I converted the results to a Pandas DataFrame for easier plotting and visualization. Key insights included:
-- Total orders by date: Tracked the volume of orders over time.
-- Total orders by weekdays: find weekdays in which people orders the most.
-- Sales amount by product category: Identified high-performing product types.
-- Average monthly amount
+    - After aggregating the necessary metrics using PySpark, I converted the results to a Pandas DataFrame for easier plotting and visualization. Key insights included:
+    - Total orders by date: Tracked the volume of orders over time.
+    - Total orders by weekdays: find weekdays in which people orders the most.
+    - Sales amount by product category: Identified high-performing product types.
+    - Average monthly amount
 
 ## **Machine Learning (with TensorFlow)**
-- Applied Label Encoding to categorical features such as ship-city and status.
-- Built a neural network model using TensorFlow to predict the likelihood of an order being cancelled, based on:
-  - Shipping city
-  - Order amount
+    - Applied Label Encoding to categorical features such as ship-city and status.
+    - Built a neural network model using TensorFlow to predict the likelihood of an order being cancelled, based on:
+      - Shipping city
+      - Order amount
 
 ## **Technologies Used**
-- **Python**, **Pandas**, **PySpark**, **TensorFlow**, **Matplotlib**.
+    - **Python**, **Pandas**, **PySpark**, **TensorFlow**, **Matplotlib**.
