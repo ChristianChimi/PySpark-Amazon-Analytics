@@ -18,6 +18,14 @@ In this project, I combined PySpark for large-scale data processing and TensorFl
     - Neural Network Model: Built a neural network model using TensorFlow to predict order cancellations based on the following features:
         - Shipping City: The city where the order was shipped from.
         - Order Amount: The total amount of the order.
+## **Key insights**
+    - Order Trends: Analyzing orders over time revealed clear trends in sales volume, with certain weekdays showing higher order volumes, which can inform targeted marketing and promotional efforts.
+    - Sales Performance: Product categories varied significantly in sales performance, providing insights into the most and least profitable product types for Amazon.
+    - Cancellation Prediction: The neural network model developed with TensorFlow was able to predict order cancellations effectively based on key factors such as shipping city and order amount, suggesting that these features play a significant role in cancellation likelihood.
+
+
+## **Conclusions**
+This project demonstrates how PySpark and TensorFlow can be leveraged to process large e-commerce datasets and apply machine learning to derive meaningful insights. Through exploratory data analysis, we were able to identify key trends in sales, consumer behavior, and product performance. The neural network model for predicting order cancellations proves the effectiveness of machine learning in forecasting customer actions. These insights can be used to optimize sales strategies and reduce cancellation rates, providing value to e-commerce businesses like Amazon.
 
 ## **Technologies Used**
  - **Python**, **Pandas**, **PySpark**, **TensorFlow**, **Matplotlib**.
