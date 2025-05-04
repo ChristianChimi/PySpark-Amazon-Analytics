@@ -1,25 +1,23 @@
 ## **Amazon E-Commerce Analytics with PySpark**
 
-As part of my ongoing effort to improve my data science skills, I recently started a new project where I combined PySpark for large-scale data processing and TensorFlow for machine learning. 
-Here's an overview of the workflow and techniques I used:
+In this project, I combined PySpark for large-scale data processing and TensorFlow for machine learning to analyze Amazon e-commerce data. The project focuses on processing and analyzing large datasets, performing exploratory data analysis (EDA), and using machine learning techniques to predict the likelihood of order cancellations.
 
 ## **Pre-Processing**
-    - Loaded the dataset into a PySpark DataFrame for efficient handling of large data.
-    - Selected relevant columns and dropped null values to ensure data quality.
-    - Parsed the date field to extract the month number, useful for time-based analysis.
+    - Loading the Data: Imported the dataset into a PySpark DataFrame for efficient handling of large volumes of data.
+    - Data Cleaning: Selected relevant columns and removed rows with null values to ensure the quality of the dataset.
+    - Date Parsing: Extracted the month number from the date field to facilitate time-based analysis.
 
 ## **Exploratory Data Analysis (EDA)**
-    - After aggregating the necessary metrics using PySpark, I converted the results to a Pandas DataFrame for easier plotting and visualization. Key insights included:
-    - Total orders by date: Tracked the volume of orders over time.
-    - Total orders by weekdays: find weekdays in which people orders the most.
-    - Sales amount by product category: Identified high-performing product types.
-    - Average monthly amount
+    - Total Orders by Date: Analyzed the total volume of orders over time to observe sales trends.
+    - Total Orders by Weekday: Identified which weekdays had the highest order volume, providing insights into consumer behavior.
+    - Sales Amount by Product Category: Examined sales performance across different product categories to identify high-performing product types.
+    - Average Monthly Sales: Calculated the average monthly sales amount to better understand overall sales trends.
 
 ## **Machine Learning (with TensorFlow)**
-    - Applied Label Encoding to categorical features such as ship-city and status.
-    - Built a neural network model using TensorFlow to predict the likelihood of an order being cancelled, based on:
-      - Shipping city
-      - Order amount
+    - Label Encoding: Applied Label Encoding to categorical features like ship-city and status to convert them into numerical format for machine learning models.
+    - Neural Network Model: Built a neural network model using TensorFlow to predict order cancellations based on the following features:
+        - Shipping City: The city where the order was shipped from.
+        - Order Amount: The total amount of the order.
 
 ## **Technologies Used**
-    - **Python**, **Pandas**, **PySpark**, **TensorFlow**, **Matplotlib**.
+ - **Python**, **Pandas**, **PySpark**, **TensorFlow**, **Matplotlib**.
