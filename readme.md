@@ -8,21 +8,21 @@ In this project, I combined PySpark for large-scale data processing and TensorFl
 - Date Parsing: Extracted the month number from the date field to facilitate time-based analysis.
 
 ## **Exploratory Data Analysis (EDA)**
-- Total Orders by Date: Analyzed the total volume of orders over time to observe sales trends.
-- Total Orders by Weekday: Identified which weekdays had the highest order volume, providing insights into consumer behavior.
-- Sales Amount by Product Category: Examined sales performance across different product categories to identify high-performing product types.
-- Average Monthly Sales: Calculated the average monthly sales amount to better understand overall sales trends.
+- Analyzed the total volume of orders over time to observe sales trends.
+- Identified which weekdays had the highest order volume, providing insights into consumer behavior.
+- Examined sales performance across different product categories to identify high-performing product types.
+- Calculated the average monthly sales amount to better understand overall sales trends.
 
 ## **Machine Learning (with TensorFlow)**
-- Label Encoding: Applied Label Encoding to categorical features like ship-city and status to convert them into numerical format for machine learning models.
-- Neural Network Model: Built a neural network model using TensorFlow to predict order cancellations based on the following features:
+- Applied Label Encoding to categorical features like ship-city and status to convert them into numerical format for machine learning models.
+- Built a neural network model using TensorFlow to predict order cancellations based on the following features:
   - Shipping City: The city where the order was shipped from.
   - Order Amount: The total amount of the order.
 
 ## **Key insights**
-- Order Trends: Analyzing orders over time revealed sales trends, with certain weekdays showing higher order volumes, which can improve targeted marketing and promotional efforts.
-- Sales Performance: Product categories varied significantly in sales performance, providing insights into the most and least profitable product types for Amazon.
-- Cancellation Prediction: The neural network model developed with TensorFlow to predict order cancellations based on key factors (shipping city, order amount) suggesting that these features play a significant role in cancellation likelihood.
+- Analyzing orders over time revealed sales trends, with certain weekdays showing higher order volumes, which can improve targeted marketing and promotional efforts.
+- Product categories varied significantly in sales performance, providing insights into the most and least profitable product types for Amazon.
+- The neural network model developed with TensorFlow to predict order cancellations based on key factors (shipping city, order amount) suggesting that these features play a significant role in cancellation likelihood.
 
 ## **Technologies Used**
  - **Python**, **Pandas**, **PySpark**, **TensorFlow**, **Matplotlib**.
